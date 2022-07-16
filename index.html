@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Waiver</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <form>
-        <header>BLANK SPACE GALLERY LLC</header>
-        <!-- <p>@instagram</p> -->
+        <h1>BLANK SPACE GALLERY LLC</h1>
+        <!-- <p>BlankSpaceGallery@instagram</p> -->
         <div class="user-input">
-            <p>Name:
+            <div>
+            <h3>Name:
                 <input
                 type="text"
                 placeholder="Your Name"
                 name="name"
                 class="form-input"
-              /></p>
+              /></h3>
+              </div>
 
               <div class="pronouns">
-              <p>Pronouns: </p>
+              <h3>Pronouns: </h3>
                 <input type="checkbox" id="heHim">
                 <label for="him"> He/Him</label><br>
                 <input type="checkbox" id="sheHer">
@@ -37,7 +40,7 @@
               </div>
 
               <div>
-                <p>Id Type:</p>
+                <h3>Id Type:</h3>
                 <input type="checkbox" id="license">
                 <label for="license"> License</label><br>
                 <input type="checkbox" id="passport">
@@ -52,7 +55,7 @@
               </div>
 
               <div>
-                <p>Artist:</p>
+                <h3>Artist:</h3>
                 <input type="checkbox" id="garrett">
                 <label for="ham"> @hamdoesntmatter</label><br>
                 <input type="checkbox" id="jo">
@@ -60,8 +63,8 @@
               </div>
 
               <div>
-                <p>Listed artist will provide tattoo services (the "Services") to Client based on the following
-                    representations by Client:</p>
+                <h3>Listed artist will provide tattoo services (the "Services") to Client based on the following
+                    representations by Client:</h3>
 
                 <input type="checkbox" id="age">
                 <label for="age"> I certify that I am over 18
@@ -94,7 +97,7 @@
 
               <div class="acknowledge">
                 <ul>
-                    <li>Client acknowledges and fully understands that by using the Services, Client will be engaging in activities that may involve risks . Client hereby assumes all risks and freely accepts full personal responsibility for all potential damages, resulting from or associated with Client's use of the Services.</li>
+                    <li>Client acknowledges and fully understands that by using the Services, Client will be engaging in activities that may involve risks. Client hereby assumes all risks and freely accepts full personal responsibility for all potential damages, resulting from or associated with Client's use of the Services.</li>
                     <li>Client understands that Operator is not responsible for verifying the text or images provided or chosen by the client. </li>
                     <li>Client acknowledges that Operator is not a medical professional and that the Services involve a
                         permanent change to the Client's body.</li>
@@ -105,24 +108,28 @@
               </div>
 
               <div class="legal">
-                <p>In consideration of being provided the Services, Client does, for himself or herself, his or her heirs, executors,
+                <h4>In consideration of being provided the Services, Client does, for himself or herself, his or her heirs, executors,
                     and assigns, hereby release, waive and discharge Operator, its predecessors, successors, affiliates,
                     officers, directors, managers, members, attorneys, agents, representatives, insurers, and employees from any and
                     all actions, claims, demands, accidents, injuries, damages, costs, losses, and all consequential damages,
                     whether known or unknown, arising out of any alleged negligence or recklessness on their part with respect to
-                    Client's use of the Services.</p>
+                    Client's use of the Services.</h4>
               </div>
 
               <div class="signature">
-                <p>
+                <h3>
                     By signing below, I (client) agree that I have read the Tattoo release form provided by “SPACE GALLERY LLC” and agree to its terms.
-                </p>
+                </h3>
                 <label for="">Signature:</label>
                 <input type="text">
                 <label for="">Date:</label>
                 <input type="date" id="bday" name="bday"
                 value="0000-00-00"
                 min="1970-01-01" max="2025-12-31">
+              </div>
+
+              <div>
+                <input type="submit" value="Submit">
               </div>
   
 
