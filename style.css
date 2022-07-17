@@ -41,6 +41,8 @@ label {
     font-size: 25px;
     letter-spacing: 1px;
     align-content: center;
+    width: 100px;
+    height: 45px;
 }
 
 .button {
