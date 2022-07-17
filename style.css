@@ -7,7 +7,7 @@ h1 {
 /* form styling */
 form {
     font-family: 'Oswald', sans-serif;
-    font-size: 17px;
+    font-size: 19px;
 }
 h4 {
     font-family: 'Bebas Neue', cursive;
@@ -20,6 +20,10 @@ h4 {
 .idInput {
     width: 150px;
     height: 20px 
+}
+.checkbox {
+    width: 20px;
+    height: 20px;
 }
 
 /* date pickers styling */
