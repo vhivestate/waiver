@@ -1,9 +1,35 @@
-.container {
-    height: 200px;
-    position: relative;
-  }
-.btn {
-    margin: 0;
-    position: absolute;
-    top: 20%;
+/* header styling */
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 56px;
+    border-bottom: 1px solid black;
 }
+/* form styling */
+form {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+}
+h4 {
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 27px;
+}
+
+label {
+    font-family: 'Oswald', sans-serif;
+}
+/* button styling*/
+.btn {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    letter-spacing: 1px;
+    align-content: center;
+}
+
+.button {
+    text-align: center; 
+    padding: 30px;
+}
+
+

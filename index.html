@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waiver</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;400&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form>
         <h1>BLANK SPACE GALLERY</h1>
         <!-- <p>BlankSpaceGallery@instagram</p> -->
+        <form>
         <div class="user-input">
             <div>
             <h4>Name:
+                <br>
                 <input
                 type="text"
                 placeholder="Your Name"
@@ -42,7 +46,7 @@
                     min="1970-01-01" max="2025-12-31">
               </div>
 
-              <div>
+              <div class="id">
                 <h4>Id Type:</h4>
                 <input type="checkbox" id="license">
                 <label for="license"> License</label><br>
@@ -111,12 +115,12 @@
               </div>
 
               <div class="legal">
-                <h4>In consideration of being provided the Services, Client does, for himself or herself, his or her heirs, executors,
+                <p>In consideration of being provided the Services, Client does, for himself or herself, his or her heirs, executors,
                     and assigns, hereby release, waive and discharge Operator, its predecessors, successors, affiliates,
                     officers, directors, managers, members, attorneys, agents, representatives, insurers, and employees from any and
                     all actions, claims, demands, accidents, injuries, damages, costs, losses, and all consequential damages,
                     whether known or unknown, arising out of any alleged negligence or recklessness on their part with respect to
-                    Client's use of the Services.</h4>
+                    Client's use of the Services.</p>
               </div>
 
               <div class="signature">
@@ -124,14 +128,14 @@
                     By signing below, I (client) agree that I have read the Tattoo release form provided by “Blank Space Gallery LLC” and agree to its terms.
                 </h4>
                 <label for="">Signature:</label>
-                <input type="text">
+                <input type="text"> <br>
                 <label for="">Date:</label>
                 <input type="date" id="bday" name="bday"
                 value="0000-00-00"
                 min="1970-01-01" max="2025-12-31">
               </div>
 
-              <div class="container">
+              <div class="button">
               <button class="btn "type="button" onclick="alert('Submitted!')">Submit</button>
             </div>
 
