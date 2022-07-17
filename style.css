@@ -38,11 +38,10 @@ label {
 /* button styling*/
 .btn {
     font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
+    font-size: 26px;
     letter-spacing: 1px;
     align-content: center;
-    width: 100px;
-    height: 45px;
+    padding: 8px;
 }
 
 .button {
