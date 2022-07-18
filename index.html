@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waiver</title>
-    <link rel="stylesheet" href="./assests/style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;400&family=Staatliches&display=swap" rel="stylesheet">
@@ -63,9 +63,9 @@
 
               <div>
                 <h4>Artist:</h4>
-                <input class="checkbox" type="checkbox" id="garrett">
+                <input class="checkbox" type="checkbox" id="Garrett Smith" name="Garrett">
                 <label for="ham"> @hamdoesntmatter</label><br>
-                <input class="checkbox" type="checkbox" id="jo">
+                <input class="checkbox" type="checkbox" id="jo" name="Jo">
                 <label for="jo"> @venussares</label><br>
               </div>
 
@@ -73,32 +73,32 @@
                 <h4>Listed artist will provide tattoo services (the "Services") to Client based on the following
                     representations by Client:</h4>
 
-                <input class="checkbox" type="checkbox" id="age">
+                <input class="checkbox" type="checkbox" id="age" name="box1">
                 <label for="age"> I certify that I am over 18
                 </label><br>
 
-                <input class="checkbox" type="checkbox" id="">
-                <label for="">I am not pregnant or nursing
+                <input class="checkbox" type="checkbox" id="nursing" name="box2">
+                <label for="nursing">I am not pregnant or nursing
                 </label><br>
 
-                <input class="checkbox" type="checkbox" id="">
-                <label for=""> I am not under the influence of alcohol, nor on any drug.
+                <input class="checkbox" type="checkbox" id="drug" name="box3">
+                <label for="drug"> I am not under the influence of alcohol, nor on any drug.
                 </label><br>
 
-                <input class="checkbox" type="checkbox" id="">
-                <label for=""> I do not have medical conditions that may affect the Services, including hepatitis, diabetes, heart disease, epilepsy, hemophilia, high blood pressure, or other physical conditions that may affect application or healing.
+                <input class="checkbox" type="checkbox" id="meds" name="box4">
+                <label for="meds"> I do not have medical conditions that may affect the Services, including hepatitis, diabetes, heart disease, epilepsy, hemophilia, high blood pressure, or other physical conditions that may affect application or healing.
                 </label><br>
 
-                <input class="checkbox" type="checkbox" id="">
-                <label for=""> I am not allergic to latex, soap, metals, or tattoo pigments.
+                <input class="checkbox" type="checkbox" id="allergies" name="box5">
+                <label for="allergies"> I am not allergic to latex, soap, metals, or tattoo pigments.
                 </label><br>
 
-                <input class="checkbox" type="checkbox" id="">
-                <label for=""> I am not prone to fainting or vertigo.
+                <input class="checkbox" type="checkbox" id="faint" name="box6">
+                <label for="faint"> I am not prone to fainting or vertigo.
                 </label><br>
 
-                <input class="checkbox" type="checkbox" id="">
-                <label for=""> I fully understand that variations may occur between the image provided or chosen and the actual tattoo when applied to my body, and that tattoos will fade over time and with exposure to sunlight.
+                <input class="checkbox" type="checkbox" id="fade" name="box7">
+                <label for="fade"> I fully understand that variations may occur between the image provided or chosen and the actual tattoo when applied to my body, and that tattoos will fade over time and with exposure to sunlight.
                 </label><br>
               </div>
 
@@ -141,10 +141,11 @@
     </form>
 
     <div class="button">
-        <button class="btn "type="button" onclick="alert('submitted')">Submit</button>
+        <button id="btn" class="btn "type="button" onclick="getCertify()">Submit</button>
       </div>
+
+      <script src="./assets/app.js"></script>
 </body>
-<link rel="stylesheet" href="./assests/app.js" />
 </html>
 
 
