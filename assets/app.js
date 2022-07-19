@@ -75,3 +75,15 @@ function getCertify() {
     console.dir(box7);
     console.dir(check7);
 }
+
+function getSign() {
+    var sign = document.querySelector("input[name='signature']").name;
+    var signature = document.querySelector("input[name='signature']").value;
+    var date = document.querySelector("input[name='date']").name;
+    var dateInput = document.querySelector("input[name='date']").value;
+
+    console.dir(date);
+    console.dir(dateInput);
+    console.dir(sign);
+    console.dir(signature);
+}
