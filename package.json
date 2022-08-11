@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "file-system": "^2.2.2"
+  },
+  "name": "waiver",
+  "description": "## Description The point this project is so clients can scan QR code and tattoo waiver agreements can be filled out upon appointment arrival. After form is completed it will be saved so artists can keep track of clients.",
+  "version": "1.0.0",
+  "main": "demo_readfile.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vhivestate/waiver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vhivestate/waiver/issues"
+  },
+  "homepage": "https://github.com/vhivestate/waiver#readme"
+}

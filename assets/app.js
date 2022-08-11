@@ -37,6 +37,11 @@ function getInput() {
     console.dir(artist1);
     console.dir(check1);
 
+    const waiver = {
+        name : name,
+        birthday : bday,
+        
+    }
 
 // function getCertify() {
     var box1 = document.querySelector("input[name='box1']").labels[0].innerText;
